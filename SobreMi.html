@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVU</title>
+    <style>
+        /* Paleta de colores */
+        :root {
+            --color-fondo: #E4C59E;
+            --color-header-footer: #AF8260;
+            --color-secciones: #803D3B;
+            --color-texto: #322C2B;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--color-header-footer);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            color: var(--color-secciones);
+            border-bottom: 3px solid var(--color-secciones);
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background-color: var(--color-secciones);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 5px 5px 5px 0;
+            font-size: 0.9em;
+        }
+
+        footer {
+            background-color: var(--color-header-footer);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            section h2 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bryan Alejandro Castillo Rocha</h1>
+    <p>Desarrollador Full Stack | Ingeniero en Computacion</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Información Personal</h2>
+        <ul>
+            <li><strong>Teléfono:</strong> +52 333 0313 624</li>
+            <li><strong>Email:</strong> brycasale@gmail.com</li>
+            <li><strong>Ubicación:</strong> Guadalajara, Jalisco, México</li>
+            <li><strong>LinkedIn:</strong> <a href="https://github.com/Brycasti" target="_blank">github.com/Brycasti</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <ul>
+            <li>
+                <strong>Desarrollador Full Stack</strong> - <em>TechCorp</em> (2020 - Presente)
+                <p>Desarrollo de aplicaciones web escalables utilizando tecnologías modernas como React, Node.js y MongoDB.</p>
+            </li>
+            <li>
+                <strong>Ingeniero de Software</strong> - <em>SoftSolutions</em> (2018 - 2020)
+                <p>Implementación de soluciones empresariales en Java y Spring Boot.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <ul>
+            <li>
+                <strong>Ingeniería en Computacion</strong> - <em>Universidad de Guadalajara</em> (2022 - 2024)
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Habilidades</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Python</span>
+            <span>MySQL</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Proyectos Destacados</h2>
+        <ul>
+            <li>
+                <strong>Sistema de Gestión de Inventarios</strong> - Desarrollado con Python y Django para una empresa de logística.
+            </li>
+            <li>
+                <strong>Aplicación de E-Commerce</strong> - Creación de una tienda en línea con React y Node.js, incluyendo integración de pagos.
+            </li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 [Castillo Rocha Bryan Alejandro]. Ingeniero en Computación. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+
+
+
